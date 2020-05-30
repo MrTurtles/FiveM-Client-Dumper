@@ -1,10 +1,10 @@
-package com.gitlab.marcodsl.server
+package com.github.marcodsl.server
 
-import com.gitlab.marcodsl.Resource
-import com.gitlab.marcodsl.Application
-import com.gitlab.marcodsl.server.dto.AssetResponse
-import com.gitlab.marcodsl.server.dto.ManifestResponse
-import com.gitlab.marcodsl.utils.logger
+import com.github.marcodsl.Resource
+import com.github.marcodsl.Application
+import com.github.marcodsl.server.dto.AssetResponse
+import com.github.marcodsl.server.dto.ManifestResponse
+import com.github.marcodsl.utils.logger
 import io.ktor.application.call
 import io.ktor.application.install
 import io.ktor.features.ContentNegotiation

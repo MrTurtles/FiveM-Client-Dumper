@@ -1,4 +1,4 @@
-package com.gitlab.marcodsl.server.dto
+package com.github.marcodsl.server.dto
 
 import com.google.gson.annotations.SerializedName
 

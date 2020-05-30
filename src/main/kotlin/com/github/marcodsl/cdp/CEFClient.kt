@@ -1,4 +1,4 @@
-package com.gitlab.marcodsl.cdp
+package com.github.marcodsl.cdp
 
 import pl.wendigo.chrome.Browser
 import pl.wendigo.chrome.api.runtime.EvaluateRequest
@@ -10,8 +10,7 @@ object CEFClient {
     private val target: Target
 
     init {
-        val avaliableTargets = chrome.targets().filter { it.title.contains("nui") }
-        target = chrome.attach(avaliableTargets.random())
+        target = chrome.attach(chrome.targets().random())
 
         executeJavascript("const fetchAsBlob = url => fetch(url).then(response => response.blob());")
         executeJavascript("const convertBlobToBase64=e=>new Promise((a,o)=>{const r=new FileReader;r.onerror=o,r.onload=(()=>{a(r.result.replace(/^data:.+;base64,/, ''))}),r.readAsDataURL(e)});")

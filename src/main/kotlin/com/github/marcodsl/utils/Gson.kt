@@ -1,4 +1,4 @@
-package com.gitlab.marcodsl.utils
+package com.github.marcodsl.utils
 
 import com.google.gson.Gson
 

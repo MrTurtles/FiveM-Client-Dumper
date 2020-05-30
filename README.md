@@ -17,6 +17,11 @@ para um servidor HTTP local. Em seguida, os arquivos recebidos são salvos no di
 3. Execute ```java -jar fivem-client-dumper-1.0-SNAPSHAT-all.jar -a [Endereço IP]``` no sua CLI preferida.
 5. Aguarde o fim da execução do programa.
 
+#### Opções
+* `-a`: endereço IP do servidor
+* `-p`: porta do servidor (padrão: 30120)
+* `-o`: pasta de saída dos arquivos (padrão: IP do servidor)
+
 ## Perguntas Frequentes
 
 * **P:** Eu posso ser banido do FiveM por usar o FiveM Client Dumper? **R**: _Não. O FiveM Client Dumper não acessa

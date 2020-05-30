@@ -1,10 +1,10 @@
-package com.gitlab.marcodsl
+package com.github.marcodsl
 
-import com.gitlab.marcodsl.exceptions.DumperException
-import com.gitlab.marcodsl.server.ServerFactory
-import com.gitlab.marcodsl.utils.fromJson
-import com.gitlab.marcodsl.utils.logger
-import com.gitlab.marcodsl.utils.sleepWhile
+import com.github.marcodsl.exceptions.DumperException
+import com.github.marcodsl.server.ServerFactory
+import com.github.marcodsl.utils.fromJson
+import com.github.marcodsl.utils.logger
+import com.github.marcodsl.utils.sleepWhile
 import java.io.File
 import java.net.URL
 import kotlin.system.exitProcess
@@ -25,6 +25,7 @@ class Application(private val address: String, private val port: Int, outputFold
     internal var lastRequest: Long = 0
 
     init {
+
         val server = ServerFactory.createNewServer(this)
 
         if (!outputFolder.exists())

@@ -1,4 +1,4 @@
-package com.gitlab.marcodsl
+package com.github.marcodsl
 
 data class ServerInfo(
     val server: String,

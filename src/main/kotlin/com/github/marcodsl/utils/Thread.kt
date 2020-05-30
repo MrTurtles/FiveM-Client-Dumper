@@ -1,4 +1,4 @@
-package com.gitlab.marcodsl.utils
+package com.github.marcodsl.utils
 
 fun sleepWhile(condition: Boolean) {
     while (condition)

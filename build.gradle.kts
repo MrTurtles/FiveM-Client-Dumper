@@ -5,8 +5,8 @@ plugins {
     id("com.github.johnrengelman.shadow") version "5.1.0"
 }
 
-group = "com.gitlab.marcodsl"
-version = "1.0.1-SNAPSHOT"
+group = "com.github.marcodsl"
+version = "1.0.2-SNAPSHOT"
 
 repositories {
     mavenCentral()
@@ -49,7 +49,7 @@ tasks {
 
     withType<ShadowJar> {
         manifest {
-            attributes["Main-Class"] = "com.gitlab.marcodsl.Main"
+            attributes["Main-Class"] = "com.github.marcodsl.Main"
         }
     }
 

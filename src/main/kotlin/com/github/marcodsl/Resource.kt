@@ -1,10 +1,11 @@
-package com.gitlab.marcodsl
+package com.github.marcodsl
 
-import com.gitlab.marcodsl.cdp.CEFClient
-import com.gitlab.marcodsl.server.dto.AssetResponse
-import com.gitlab.marcodsl.server.dto.ManifestResponse
-import com.gitlab.marcodsl.utils.logger
-import com.gitlab.marcodsl.utils.toPlainText
+import com.github.marcodsl.cdp.CEFClient
+import com.github.marcodsl.server.dto.AssetResponse
+import com.github.marcodsl.server.dto.ManifestResponse
+import com.github.marcodsl.utils.base64ToByteArray
+import com.github.marcodsl.utils.logger
+import com.github.marcodsl.utils.toPlainText
 import java.io.File
 import java.net.InetAddress
 
@@ -93,7 +94,9 @@ class Resource(val name: String, private val rootFolder: String) {
                     this.createNewFile()
                 }
 
-                this.bufferedWriter().use { it.write(asset.assetContent.toPlainText()) }
+                this.outputStream().use {
+                    it.write(asset.assetContent.base64ToByteArray())
+                }
             }
         }
     }

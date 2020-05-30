@@ -1,6 +1,6 @@
-package com.gitlab.marcodsl.utils
+package com.github.marcodsl.utils
 
-import com.gitlab.marcodsl.Application
+import com.github.marcodsl.Application
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 

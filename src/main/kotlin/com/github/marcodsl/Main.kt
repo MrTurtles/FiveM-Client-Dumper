@@ -1,8 +1,8 @@
 @file:JvmName("Main")
 
-package com.gitlab.marcodsl
+package com.github.marcodsl
 
-import com.gitlab.marcodsl.utils.logger
+import com.github.marcodsl.utils.logger
 import com.google.gson.GsonBuilder
 import org.apache.commons.cli.DefaultParser
 import org.apache.commons.cli.HelpFormatter
