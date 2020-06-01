@@ -1,4 +1,8 @@
 # FiveM Client Dumper
+**THIS PROJECT IS NOW UNMAINTAINED. THIS MEANS I WILL NOT UPDATE THE CODE, ANSWER TO ISSUE REPORTS OR OFFER ANY KIND OF SUPPORT.
+HOWEVER, YOU STILL CAN FORK IT AND MODIFY THE CODE THE WAY YOU WANT. 
+[LICENSE](https://github.com/marcodsl/FiveM-Client-Dumper/blob/master/LICENSE) STILL APPLIES.**
+
 FiveM Client Dumper é uma aplicação que permite que o usuário obtenha os arquivos do lado do client de um servidor de FiveM.
 
 ## Como funciona?
