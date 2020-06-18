@@ -1,36 +1,36 @@
 # FiveM Client Dumper
-**THIS PROJECT IS NOW UNMAINTAINED. THIS MEANS I WILL NOT UPDATE THE CODE, ANSWER TO ISSUE REPORTS OR OFFER ANY KIND OF SUPPORT.
-HOWEVER, YOU STILL CAN FORK IT AND MODIFY THE CODE THE WAY YOU WANT. 
-[LICENSE](https://github.com/marcodsl/FiveM-Client-Dumper/blob/master/LICENSE) STILL APPLIES.**
+** THIS PROJECT IS NOW UNMAINTAINED. THIS MEANS I WILL NOT UPDATE THE CODE, ANSWER TO ISSUE REPORTS OR OFFER ANY KIND OF SUPPORT.
+HOWEVER, YOU STILL CAN FORK IT AND MODIFY THE CODE THE WAY YOU WANT.
+[LICENSE] (https://github.com/marcodsl/FiveM-Client-Dumper/blob/master/LICENSE) STILL APPLIES. **
 
-FiveM Client Dumper é uma aplicação que permite que o usuário obtenha os arquivos do lado do client de um servidor de FiveM.
+FiveM Client Dumper is an application that allows the user to obtain files on the client side of a FiveM server.
 
-## Como funciona?
+## How it works?
 
-Como descrito [aqui](https://docs.fivem.net/docs/scripting-manual/nui-development/full-screen-nui/#developer-tools), o
-aplicativo do FiveM expõe as ferramentas de debugging do Chrome Embedded Framework em [127.0.0.1:13172](http://127.0.0.1:13172).
-Dessa forma, o FiveM Client Dumper utiliza do [Chrome Devtools Protocol](https://chromedevtools.github.io/devtools-protocol/)
-para executar chamadas [`fetch()`](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API) que enviam os arquivos do client 
-para um servidor HTTP local. Em seguida, os arquivos recebidos são salvos no disco.
+As described [here] (https://docs.fivem.net/docs/scripting-manual/nui-development/full-screen-nui/#developer-tools), the
+FiveM's application exposes the Chrome Embedded Framework debugging tools at [127.0.0.1:13172▪(http://127.0.0.1:13172).
+Thus, FiveM Client Dumper uses the [Chrome Devtools Protocol] (https://chromedevtools.github.io/devtools-protocol/)
+to execute calls [`fetch ()`] (https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API) that send the client files
+to a local HTTP server. The received files are then saved to the disk.
 
-## Como usar
+## How to use
 
-1. Certifique-se de que a última versão do [JRE 64 bits](https://www.oracle.com/java/technologies/javase-jre8-downloads.html) está instalada.
-2. Baixe o arquivo na página [RELEASES](https://github.com/marcodsl/FiveM-Client-Dumper/releases/tag/1.0-SNAPSHOT).
-3. Abra o FiveM e entre no servidor cujo client-side deseja obter.
-3. Execute ```java -jar fivem-client-dumper-1.0-SNAPSHAT-all.jar -a [Endereço IP]``` no sua CLI preferida.
-5. Aguarde o fim da execução do programa.
+1. Make sure that the latest version of [JRE 64 bits] (https://www.oracle.com/java/technologies/javase-jre8-downloads.html) is installed.
+2. Download the file from the [RELEASES] page (https://github.com/MrTurtles/FiveM-Client-Dumper/releases/tag/1.0.2-SNAPSHOT).
+3. Open FiveM and enter the server whose client-side you want to obtain.
+3. Run `` `java -jar fivem-client-dumper-1.0-SNAPSHAT-all.jar -a [IP address] '' in your preferred CLI.
+5. Wait for the program to finish running.
 
-#### Opções
-* `-a`: endereço IP do servidor
-* `-p`: porta do servidor (padrão: 30120)
-* `-o`: pasta de saída dos arquivos (padrão: IP do servidor)
+#### Options
+* `-a`: server's IP address
+* `-p`: server port (default: 30120)
+* `-o`: output folder of the files (default: server IP)
 
-## Perguntas Frequentes
+## Common questions
 
-* **P:** Eu posso ser banido do FiveM por usar o FiveM Client Dumper? **R**: _Não. O FiveM Client Dumper não acessa
-a memória do processo do FiveM diretamente, portanto não existem riscos de banimento._
+* ** Q: ** Can I be banned from FiveM for using the FiveM Client Dumper? ** R **: _No. The FiveM Client Dumper does not access
+the memory of the FiveM process directly, so there are no risks of banning it.
 
-## Licença
+## License
 
-O código-fonte do FiveM Client Dumper está licenciado sobre a [GNU Affero General Public License v3.0](https://github.com/marcodsl/FiveM-Client-Dumper/blob/master/LICENSE)
+The source code for the FiveM Client Dumper is licensed under the [GNU Affero General Public License v3.0] (https://github.com/marcodsl/FiveM-Client-Dumper/blob/master/LICENSE)
