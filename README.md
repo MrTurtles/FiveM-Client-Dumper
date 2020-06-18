@@ -16,9 +16,9 @@ to a local HTTP server. The received files are then saved to the disk.
 ## How to use
 
 1. Make sure that the latest version of [JRE 64 bits] (https://www.oracle.com/java/technologies/javase-jre8-downloads.html) is installed.
-2. Download the file from the [RELEASES] page (https://github.com/MrTurtles/FiveM-Client-Dumper/releases/tag/1.0.2-SNAPSHOT).
+2. Download the file from the [RELEASES] page (https://github.com/MrTurtles/FiveM-Client-Dumper/releases/tag/1.0.2).
 3. Open FiveM and enter the server whose client-side you want to obtain.
-3. Run `` `java -jar fivem-client-dumper-1.0-SNAPSHAT-all.jar -a [IP address] '' in your preferred CLI.
+3. Run `` `java -jar fivem-client-dumper-1.0.2-all.jar -a [IP address] '' in your preferred CLI.
 5. Wait for the program to finish running.
 
 #### Options
