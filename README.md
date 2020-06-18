@@ -18,9 +18,9 @@ to a local HTTP server. The received files are then saved to the disk.
 1. Make sure that the latest version of [JRE 64 bits] (https://www.oracle.com/java/technologies/javase-jre8-downloads.html) is installed.
 2. Download the files from the [RELEASES] page (https://github.com/MrTurtles/FiveM-Client-Dumper/releases/tag/1.0.21).
 3. Open FiveM and join the server whose client-side you want to obtain.
-4. If the server address is a domain like: lifetimeroleplay.com open command prompt and enter command: "ping lifetimeroleplay.com" and copy the output IP address.
+4. If the server address is a domain like: lifetimeroleplay.com open command prompt and enter command: "ping lifetimeroleplay.com" and copy the output IP address. Skip to step 7 if you've done this step.
 5. Optional (RedEngine REQUIRED): Open RedEngine "Insert" or "F11" and go to executor
-6. Enter this command in exec : print("IP: " .. GetCurrentServerEndpoint())
+6. Optional (RedEngine REQUIRED): Enter this command in exec : print("IP: " .. GetCurrentServerEndpoint())
 7. Run dumper.bat and enter IP and Port
 8. Wait for the program to finish running.
 
