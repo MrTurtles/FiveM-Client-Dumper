@@ -32,7 +32,7 @@ to a local HTTP server. The received files are then saved to the disk.
 ## Common questions
 
 * ** Q: ** Can I be banned from FiveM for using the FiveM Client Dumper? ** R **: _No. The FiveM Client Dumper does not access
-the memory of the FiveM process directly, so there are no risks of banning it.
+the memory of the FiveM process directly, so there are no risk of getting banned.
 
 ## License
 
