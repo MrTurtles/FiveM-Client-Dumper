@@ -1,5 +1,5 @@
 # FiveM Client Dumper
-** THE ORIGINAL PROJECT IS NOW UNMAINTAINED. THIS MEANS IT WILL NOT BE UPDATED, ANSWER TO ISSUE REPORTS OR OFFER ANY KIND OF SUPPORT.
+** THE ORIGINAL PROJECT AND THIS PROJECT ARE UNMAINTAINED. THIS MEANS IT WILL NOT BE UPDATED, ANSWER TO ISSUE REPORTS OR OFFER ANY KIND OF SUPPORT.
 HOWEVER, I FORKED THE PROJECT TO MAINTAIN POSSIBLE ISSUES AND TRY TO HELP YOU.
 [LICENSE] (https://github.com/marcodsl/FiveM-Client-Dumper/blob/master/LICENSE) STILL APPLIES. **
 
@@ -32,7 +32,7 @@ to a local HTTP server. The received files are then saved to the disk.
 ## Common questions
 
 * ** Q: ** Can I be banned from FiveM for using the FiveM Client Dumper? ** R **: _No. The FiveM Client Dumper does not access
-the memory of the FiveM process directly, so there are no risk of getting banned.
+the memory of the FiveM process directly, so there are no risks of getting banned.
 
 ## License
 
